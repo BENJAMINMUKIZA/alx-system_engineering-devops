@@ -1,4 +1,3 @@
 #!/bin/bash
-set -x
 username=$(whoami)
 echo "Hello $username"
