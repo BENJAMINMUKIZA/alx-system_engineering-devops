@@ -1,0 +1,2 @@
+#!/bin/bash
+echo set -o posix; set | sed -n '/^[[:alnum:]_]\+=/p'
