@@ -1,2 +1,10 @@
 #!/bin/bash
+
+# Enable debug mode
+set -x
+
+# Get the current username using the whoami command
+username=$(whoami)
+
+# Print the greeting
 echo "Hello $username"
